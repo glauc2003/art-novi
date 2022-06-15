@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body, html {
+  width:100%;
+  height:100%;
+  background:#ddd;
+  font-family: 'Montserrat', sans-serif;
+  font-size:110px;
+  text-align:center;
+  font-weight: 600;
+  letter-spacing: 10px;
+  background-color: black;
+}
+
+
+.podnaslov {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: red;
+}
+.naslov {
+  font-family: 'Playfair Display', serif;
+}
+
+@media only screen and (max-width: 1500px) {
+  .main {
+    width: 1500px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .main {
+    width: 2000px;
+  }
+}
